@@ -1,2 +1,4 @@
 Django
 django-pytest
+django-rest-swagger
+whitenoise
