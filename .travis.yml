@@ -9,7 +9,7 @@ install:
 script:
   - python lab01/manage.py test polls
   
- deploy:
-   provider: heroku
-   api_key: c60c2dc2-2a32-431f-9c82-199472c75c49
-   app: rsoipog
+deploy:
+  provider: heroku
+  api_key: c60c2dc2-2a32-431f-9c82-199472c75c49
+  app: rsoipog
